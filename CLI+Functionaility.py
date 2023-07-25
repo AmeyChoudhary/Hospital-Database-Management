@@ -518,8 +518,8 @@ while(1):
         # Set host to the server's address if you don't want to use local SQL server 
         con = pymysql.connect(host='localhost',
                               port=3306,
-                              user=username, #username must be dna_root
-                              password=password, #password must be dnaRoot*123
+                              user=username, 
+                              password=password,
                               db='Proj_4',
                               cursorclass=pymysql.cursors.DictCursor)
         tmp = sp.call('clear', shell=True)
