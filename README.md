@@ -88,8 +88,9 @@ https://www.digitalocean.com/community/tutorials/how-to-create-a-new-user-and-gr
 5. Exit MySQL and enter the following in your terminal (Note that terminal must be open in the Project folder)
 
 ```
-mysql -u <yourusername> -p <yourpassword> Proj_4 < SQLdump.sql 
+mysql -u <yourusername> -p  Proj_4 < SQLdump.sql 
 ```
+and then enter your password.
 This command creates tables and dumps dummy data in your database. Your username and password can be either your native root user or the new user created in Step 4.
 
 6. Now start the application by
