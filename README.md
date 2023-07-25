@@ -10,13 +10,11 @@
 
 Our project mimics the database of a hospital where we keep a record of each patient, doctor, room, department, etc. of the hospital to ensure its smooth running. It has been made as part of project in DNA 2022.
 
-It has been implemented using Python and MySQL. We are using the Python library, "pymysql", to execute SQL queries. The database follows and uses various principles of databases like ER relationships and Normalizations.
-
-A video (44.mp4) showcasing the functionalities of the application has also been added into the repository. It may be downloaded to view the application.
+A video (44.mp4) showcasing the functionalities of the application and its usage on dummy data has also been added into the repository. It may be downloaded to view the application.
 
 A pdf(phase3.pdf) contains ER model of the database.
 
-
+It has been implemented using Python and MySQL. We are using the Python library, "pymysql", to execute SQL queries. The database follows and uses various principles of databases like ER relationships and Normalizations.
 
 ## List of commands that can be run using our code and database
  
@@ -61,9 +59,10 @@ This logs the user out of the database.
 
 ## To run the project:
 
-You must have MySQL in your local system for this to work.
+You must have MySQL and python3 in your local system for this to work.
 
 1. Clone the repository into a folder and open that folder into in Terminal.
+
 2. Login in to your MySQL using 
 ```
  sudo mysql -u <yourusername>
@@ -74,11 +73,11 @@ You must have MySQL in your local system for this to work.
 ```
 CREATE DATABASE Proj_4;
 ```
+
 4. (Optional) It is advised to create a new user and grant them all privileges on Proj_4. This step is optional.
 ```
 CREATE USER '<newusername>'@'<hostname>' IDENTIFIED BY '<password>';
 ```
-
 Grant the new user all privileges on Proj_4.
 ```
 GRANT ALL PRIVILEGES ON *Proj_4* TO '<newusername>'@'<hostname>' WITH GRANT OPTION;
@@ -97,3 +96,6 @@ This command creates tables and dumps dummy data in your database. Your username
 ```
 python3 Functionality.py
 ```
+and now enter your credentials (either your native user or new user created).
+
+7. You may select options to see various functionalities.
