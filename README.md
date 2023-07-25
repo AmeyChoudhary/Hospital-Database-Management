@@ -8,9 +8,11 @@
 ### 3. Mihika Sanghi, 2021113014
 
 
-> ## About our database
+> ## About our Project
 
-> Our database mimics that of a hospital where we keep a record of each patient, doctor, room, department, etc. of the hospital to ensure its smooth running.
+> Our project mimics the database of a hospital where we keep a record of each patient, doctor, room, department, etc. of the hospital to ensure its smooth running.
+
+It has been implemented using Python and MySQL. We are using the Python library, "pymysql", to execute SQL queries. The database follows and uses various principles of databases like ER relationships and Normalizations
 
  ## List of commands that can be run using our code and database
  
