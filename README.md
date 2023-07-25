@@ -1,5 +1,11 @@
-# Data And Applications Project - Phase 4
+# Hospital Database Management
+
+## Data And Applications Project - Phase 4
 ## Team Number: 44
+## Team Members:
+### 1. Amey Choudhary, 2021113017
+### 2. Arjun Dosajh, 2021113016
+### 3. Mihika Sanghi, 2021113014
 
 
 > ## About our database
