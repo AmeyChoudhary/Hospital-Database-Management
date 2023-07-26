@@ -10,8 +10,7 @@
 
 Our project mimics the database of a hospital where we keep a record of each patient, doctor, room, department, etc. of the hospital to ensure its smooth running. It has been made as part of project in DNA 2022.
 
-A video (44.mp4) showcasing the functionalities of the application and its usage on dummy data has also been added into the repository. You can view the video at https://iiitaphyd-my.sharepoint.com/:v:/g/personal/amey_choudhary_research_iiit_ac_in/EcqfNK0eld5GsGOqavSDa6wBB6k0DJToGsVdEZs_VIvvhw?e=Pu7WbO
-or it may be downloaded to view the application.
+A video (Video) showcasing the functionalities of the application and its usage on dummy data has also been added into the repository. You can view the video at the link given in the file or you may download the video (44.mp4) to view the application.
 
 A pdf(phase3.pdf) contains ER model of the database.
 
